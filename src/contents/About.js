@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 export default class About extends React.Component {
 	render() {
 		return (
 			<>
+			<Header />
+
 			<div className="parallax">
 	          <section>
 	            <div className="image-about" data-type="background" data-speed="2"></div>
@@ -103,6 +107,8 @@ export default class About extends React.Component {
 	            </div>
 	          </div>
 	        </section>
+
+	        <Footer />
 	        </>
 		)
 	}

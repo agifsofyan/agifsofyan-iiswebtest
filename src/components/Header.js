@@ -31,6 +31,12 @@ export default class Header extends Component {
                                 Contact
                             </NavLink>
                         </li>
+
+                        <li className="li-nav nav-item waves-effect active">
+                            <NavLink to="/tracking">
+                                Tracking
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
             </nav>

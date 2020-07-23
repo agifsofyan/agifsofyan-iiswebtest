@@ -4,23 +4,24 @@ import {
   HashRouter
 } from "react-router-dom";
 import './App.css';
+
 import Home from './contents/Home';
 import About from './contents/About';
 import Contact from './contents/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
+
+import Tracker from './contents/Tracker';
+
 
 function App() {
   return (
     <HashRouter>
  		<div>
-          <Header/>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/tracking" component={Tracker}/>
           </div>
-          <Footer/>
         </div>
     </HashRouter>
   );

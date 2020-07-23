@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito,Open+Sans:400,300,700,600)');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@300;400;600;700&display=swap');
 
 html {
     font-size: 14px;
@@ -21,6 +21,10 @@ body {
     color: black !important;
 }
 
+.yellow-text {
+  color: yellow !important;
+}
+
 .float-right {
     float-right: 50% !important;
 }
@@ -41,6 +45,20 @@ body {
 /*#navbar li {
     margin: 0 10px;
 }*/
+
+.parTrack p {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.liTrack {
+  padding-left: 20px;
+}
+
+.liTrack li {
+  list-style-type: none !important;
+  padding-left: 20px;
+}
 
 .home {
     background: rgba(224, 223, 219, 0.3) !important;
