@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-// import Toast from 'react-bootstrap/Toast'
 
 export default class CompanyList extends Component {
     constructor(props){

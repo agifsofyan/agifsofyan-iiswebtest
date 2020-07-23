@@ -1,13 +1,9 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 
 export default class Contact extends React.Component {
 	render() {
 		return (
       <>
-      <Header />
-
 			<div className="container my-5">
           <h2 className="h1-responsive font-weight-bold text-center">Contact Me</h2>
           <p className="text-center w-responsive mx-auto">Jika ada pertanyaan silahkan hubungi saya</p>
@@ -51,8 +47,6 @@ export default class Contact extends React.Component {
           </div>
 
         </div>
-
-        <Footer />
         </>
 		)
 	}

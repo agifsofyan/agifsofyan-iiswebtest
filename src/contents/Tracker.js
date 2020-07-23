@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import CompanyForm from '../components/CompanyForm'
 import CompanyList from '../components/CompanyList'
-// import Toast from 'react-bootstrap/Toast'
 
 const listItems = []
 const listClosed = []
