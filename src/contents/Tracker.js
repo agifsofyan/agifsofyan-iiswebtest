@@ -87,7 +87,7 @@ export default class Tracker extends Component {
         })
 
         return (
-            <div className="container-fluid">
+            <div className="container-fluid pt-4">
                 <h2 className="h2-responsive text-center">Simple Loging (Tracking)</h2>
                 <hr/>
                 <div className="container">
